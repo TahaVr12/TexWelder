@@ -409,7 +409,7 @@ int main(void)
 #pragma endregion
 
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
-    InitWindow(1280, 720, "testing ts");
+    InitWindow(1280, 720, "TexWelder");
 
     // SetTargetFPS(144);
 

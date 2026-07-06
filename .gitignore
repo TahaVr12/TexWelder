@@ -1,3 +1,4 @@
 libs
 src/a.out
 .fake
+build/
