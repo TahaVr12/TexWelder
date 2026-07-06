@@ -1,0 +1,1 @@
+g++ main.cpp classes/node.cpp classes/structs.cpp classes/extramenus.cpp classes/paramwidgets.cpp -I../libs/raylib-6.0/src -L../libs/raylib-6.0/src -I/classes -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
