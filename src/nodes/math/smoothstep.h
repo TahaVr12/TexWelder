@@ -15,7 +15,7 @@ inline Node MakeSmoothstepNode()
 
     n.rDownCorner = {75, 75};
 
-    n.fragShaderPath = "nodes/shaders/smoothstep.fs";
+    n.fragShaderPath = "src/nodes/shaders/smoothstep.fs";
 
     return n;
 }

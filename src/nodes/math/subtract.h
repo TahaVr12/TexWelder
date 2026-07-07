@@ -14,7 +14,7 @@ inline Node MakeSubtractNode()
 
     n.rDownCorner = {75, 70};
 
-    n.fragShaderPath = "nodes/shaders/subtract.fs";
+    n.fragShaderPath = "src/nodes/shaders/subtract.fs";
     /*
         n.params = {
             {"Value", 1.0f, 0.0f, 10.0f}};

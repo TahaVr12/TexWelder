@@ -13,7 +13,7 @@ inline Node MakeColorNode()
 
     n.rDownCorner = {85, 80};
 
-    n.fragShaderPath = "nodes/shaders/color.fs";
+    n.fragShaderPath = "src/nodes/shaders/color.fs";
 
     n.params = {
         {"Color", InputType::Color}};

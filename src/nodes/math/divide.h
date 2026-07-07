@@ -14,7 +14,7 @@ inline Node MakeDivideNode()
 
     n.rDownCorner = {75, 70};
 
-    n.fragShaderPath = "nodes/shaders/divide.fs";
+    n.fragShaderPath = "src/nodes/shaders/divide.fs";
 
     return n;
 }

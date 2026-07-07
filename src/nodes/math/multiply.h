@@ -14,7 +14,7 @@ inline Node MakeMultiplyNode()
 
     n.rDownCorner = {75, 70};
 
-    n.fragShaderPath = "nodes/shaders/multiply.fs";
+    n.fragShaderPath = "src/nodes/shaders/multiply.fs";
 
     return n;
 }

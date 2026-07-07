@@ -13,7 +13,7 @@ inline Node MakeVoronoiNode()
 
     n.rDownCorner = {100, 165};
 
-    n.fragShaderPath = "nodes/shaders/voronoi.fs";
+    n.fragShaderPath = "src/nodes/shaders/voronoi.fs";
 
     n.params = {
         {"Pos", InputType::Vec2},

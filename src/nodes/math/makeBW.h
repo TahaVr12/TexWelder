@@ -14,7 +14,7 @@ inline Node MakeMakeBWNode()
 
     n.rDownCorner = {75, 70};
 
-    n.fragShaderPath = "nodes/shaders/makeBW.fs";
+    n.fragShaderPath = "src/nodes/shaders/makeBW.fs";
 
     return n;
 }

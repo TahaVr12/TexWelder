@@ -113,6 +113,24 @@ void handleInputs()
         nodeDragClickedIdx = -1;
     }
 
+    if ((IsKeyDown(KEY_LEFT_CONTROL) || IsKeyDown(KEY_RIGHT_CONTROL)) && IsKeyPressed(KEY_D)) // duplication
+    {
+        bool isAtleastOneNodeSelected = false;
+        for (Node &n : world.nodes)
+        {
+            if (n.isSelected)
+            {
+                isAtleastOneNodeSelected = true;
+                Node duplicatedNode = n;
+                n.isSelected = false;
+
+                duplicatedNode.id = world.nodes.size();
+                world.nodes.emplace_back(duplicatedNode);
+            }
+        }
+        isMovingNode = true;
+    }
+
     bool paramConsumedClick = HandleParamDragging(world);
 
     // selection shit

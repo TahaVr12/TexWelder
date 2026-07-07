@@ -11,7 +11,7 @@ inline Node MakePerlinNoiseNode()
 
     n.outputs = {IO{"output"}};
 
-    n.fragShaderPath = "nodes/shaders/perlinnoise.fs";
+    n.fragShaderPath = "src/nodes/shaders/perlinnoise.fs";
 
     n.params = {
         {"Scale", InputType::DragFloat, 4.0f},

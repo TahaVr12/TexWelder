@@ -14,7 +14,7 @@ inline Node MakeMixLerpNode()
 
     n.rDownCorner = {75, 70};
 
-    n.fragShaderPath = "nodes/shaders/mix.fs";
+    n.fragShaderPath = "src/nodes/shaders/mix.fs";
 
     return n;
 }

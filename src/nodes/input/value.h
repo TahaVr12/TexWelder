@@ -13,7 +13,7 @@ inline Node MakeValueNode()
 
     n.rDownCorner = {75, 70};
 
-    n.fragShaderPath = "nodes/shaders/value.fs";
+    n.fragShaderPath = "src/nodes/shaders/value.fs";
 
     n.params = {
         {"Value", InputType::DragFloat, 1.0f}};

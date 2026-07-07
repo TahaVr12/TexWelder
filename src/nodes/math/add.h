@@ -14,11 +14,7 @@ inline Node MakeAddNode()
 
     n.rDownCorner = {75, 70};
 
-    n.fragShaderPath = "nodes/shaders/add.fs";
-    /*
-        n.params = {
-            {"Value", 1.0f, 0.0f, 10.0f}};
-    */
+    n.fragShaderPath = "src/nodes/shaders/add.fs";
 
     return n;
 }
