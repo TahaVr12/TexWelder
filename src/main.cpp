@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <cstdint>
 
 #include "../libs/raylib-6.0/src/raylib.h"
 #include "../libs/raylib-6.0/src/raymath.h"
@@ -207,7 +208,7 @@ void handleInputs()
         {
             if (isMakingConnection)
             {
-                for (u_int16_t i = 0; i < n.inputs.size(); i++)
+                for (uint16_t i = 0; i < n.inputs.size(); i++)
                 {
                     if (CheckCollisionPointCircle(GetMousePosition(), n.inputs[i].position, n.inputs[i].radius))
                     {
@@ -230,7 +231,7 @@ void handleInputs()
             {
                 if (unfinishedConnections == 0) // this is for not adding more connections if there are unfinished ones ;-)
                 {
-                    for (u_int16_t i = 0; i < n.outputs.size(); i++)
+                    for (uint16_t i = 0; i < n.outputs.size(); i++)
                     {
 
                         if (CheckCollisionPointCircle(GetMousePosition(), n.outputs[i].position, n.outputs[i].radius))

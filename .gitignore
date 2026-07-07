@@ -2,3 +2,4 @@ libs
 src/a.out
 .fake
 build/
+build-windows/
